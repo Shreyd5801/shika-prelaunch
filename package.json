@@ -1,0 +1,27 @@
+{
+  "name": "shika-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "remotion:studio": "remotion studio src/remotion/Root.jsx",
+    "remotion:render": "remotion render src/remotion/Root.jsx NightDrive public/video/night-drive.mp4 --codec=h264"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "framer-motion": "^11.3.8",
+    "@remotion/player": "4.0.473",
+    "remotion": "4.0.473"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0",
+    "tailwindcss": "^3.4.9",
+    "postcss": "^8.4.40",
+    "autoprefixer": "^10.4.20"
+  }
+}
