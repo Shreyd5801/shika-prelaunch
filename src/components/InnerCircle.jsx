@@ -99,7 +99,7 @@ export default function InnerCircle() {
             }}>THE</div>
             <div style={{
               fontFamily: 'Brushfire, sans-serif',
-              fontSize:   FONT.accent,
+              fontSize:   FONT.display,
               lineHeight: 0.95,
               color:      LIME,
             }}>INNER CIRCLE</div>
