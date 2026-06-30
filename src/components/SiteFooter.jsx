@@ -29,7 +29,7 @@ export default function SiteFooter() {
           <div className="footer-left">
             <div style={{
               fontFamily:    '"A Love of Thunder", sans-serif',
-              fontSize:      'clamp(36px, 5.5vw, 88px)',
+              fontSize:      '64px',
               lineHeight:    0.9,
               textTransform: 'uppercase',
               letterSpacing: '0.01em',
@@ -39,7 +39,7 @@ export default function SiteFooter() {
             </div>
             <div style={{
               fontFamily:    '"A Love of Thunder", sans-serif',
-              fontSize:      'clamp(36px, 5.5vw, 88px)',
+              fontSize:      '64px',
               lineHeight:    0.9,
               textTransform: 'uppercase',
               letterSpacing: '0.01em',
@@ -80,7 +80,7 @@ export default function SiteFooter() {
             <img
               src="/images/shika-logo-green.png"
               alt="SHIKA"
-              style={{ height: 'clamp(60px, 9vw, 130px)', width: 'auto', display: 'block' }}
+              style={{ height: 'clamp(51px, 7.65vw, 110px)', width: 'auto', display: 'block' }}
             />
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
               {SOCIALS.map(({ label, href, src }) => (
